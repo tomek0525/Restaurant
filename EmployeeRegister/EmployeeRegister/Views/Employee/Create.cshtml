@@ -1,0 +1,51 @@
+﻿@model EmployeeRegister.Domain.Employee
+
+@{
+    ViewData["Title"] = "Új dolgozó hozzáadása";
+}
+
+<h2>Új dolgozó hozzáadása</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Teljes név</label>
+        <input asp-for="Name" class="form-control" placeholder="Írd be a dolgozó teljes nevét" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Position" class="control-label">Beosztás</label>
+        <input asp-for="Position" class="form-control" placeholder="Pl.: Fejlesztő, Ügyintéző" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber" class="control-label">Telefonszám</label>
+        <input asp-for="PhoneNumber" class="form-control" placeholder="Pl.: +36 30 123 4567" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Username" class="control-label">Felhasználónév</label>
+        <input asp-for="Username" class="form-control" placeholder="Pl.: jkovacs" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password" class="control-label">Jelszó</label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Adj meg egy erős jelszót" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OrganizationalUnitId" class="control-label">Szervezeti Egység</label>
+        <select asp-for="OrganizationalUnitId" asp-items="ViewBag.OrganizationalUnits" class="form-control">
+            <option value="">Válassz egy szervezeti egységet</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SupervisorId" class="control-label">Felettes</label>
+        <select asp-for="SupervisorId" asp-items="ViewBag.Supervisors" class="form-control">
+            <option value="">Nincs felettes</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Mentés</button>
+    <a asp-action="Index" class="btn btn-secondary">Vissza</a>
+</form>

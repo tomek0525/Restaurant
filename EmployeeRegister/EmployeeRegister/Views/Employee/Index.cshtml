@@ -1,0 +1,35 @@
+﻿@model List<EmployeeRegister.Domain.Employee>
+<!--https://localhost:44308/Employee/Index hogy ne felejtsem el-->
+@{
+    ViewData["Title"] = "Dolgozók listája";
+}
+
+<h2>Dolgozók listája</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Név</th>
+            <th>Beosztás</th>
+            <th>Telefonszám</th>
+            <th>Szervezeti Egység</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Name</td>
+                <td>@employee.Position</td>
+                <td>@employee.PhoneNumber</td>
+                <td>@employee.OrganizationalUnit.Name</td>
+                <td>
+                    <a class="btn btn-primary" href="/Employee/Edit/@employee.Id">Szerkesztés</a>
+                    <a class="btn btn-danger" href="/Employee/Delete/@employee.Id">Törlés</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" href="/Employee/Create">Új dolgozó hozzáadása</a>
