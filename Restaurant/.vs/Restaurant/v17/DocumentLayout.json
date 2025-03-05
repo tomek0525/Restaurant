@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tomek\\source\\repos\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|c:\\users\\tomek\\source\\repos\\restaurant\\restaurant\\domain\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\domain\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|c:\\users\\tomek\\source\\repos\\restaurant\\restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|c:\\users\\tomek\\source\\repos\\restaurant\\restaurant\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|c:\\users\\tomek\\source\\repos\\restaurant\\restaurant\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|c:\\users\\tomek\\source\\repos\\restaurant\\restaurant\\data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422FBD8A-B608-4CBA-9167-6DF40343A733}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Domain\\User.cs",
-              "RelativeDocumentMoniker": "Restaurant\\Domain\\User.cs",
-              "ToolTip": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Domain\\User.cs",
-              "RelativeToolTip": "Restaurant\\Domain\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:25:21.324Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Domain\\Order.cs",
-              "RelativeDocumentMoniker": "Restaurant\\Domain\\Order.cs",
-              "ToolTip": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Domain\\Order.cs",
-              "RelativeToolTip": "Restaurant\\Domain\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "RestaurantDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Data\\RestaurantDbContext.cs",
+              "RelativeDocumentMoniker": "Restaurant\\Data\\RestaurantDbContext.cs",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Data\\RestaurantDbContext.cs",
+              "RelativeToolTip": "Restaurant\\Data\\RestaurantDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:25:49.694Z"
+              "WhenOpened": "2025-03-05T16:58:05.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Domain\\Food.cs",
-              "RelativeDocumentMoniker": "Restaurant\\Domain\\Food.cs",
-              "ToolTip": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Domain\\Food.cs",
-              "RelativeToolTip": "Restaurant\\Domain\\Food.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Program.cs",
+              "RelativeDocumentMoniker": "Restaurant\\Program.cs",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\Restaurant\\Restaurant\\Program.cs",
+              "RelativeToolTip": "Restaurant\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T14:25:38.624Z",
+              "WhenOpened": "2025-03-05T16:54:52.11Z",
               "EditorCaption": ""
             }
           ]

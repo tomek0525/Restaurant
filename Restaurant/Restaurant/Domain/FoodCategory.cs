@@ -3,5 +3,7 @@
 public enum FoodCategory
 {
     Pizzas,
-
+    Hamburgers,
+    Garnish,
+    Drinks,
 }
